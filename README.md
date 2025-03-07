@@ -44,17 +44,15 @@ dunnis-haven
 
 ## Deployment
 
-The website is automatically deployed to GitHub Pages when changes are pushed to the main branch. You can view the live site at:
+The website is automatically deployed when changes are pushed to the main branch.
 
-https://timilehin3.github.io/dunnis-haven/
+### Manual Deployment
 
-## Development
-
-To run the development server:
+To deploy manually:
 
 ```
 
 ## Contact
 
-For inquiries, please reach out via WhatsApp at [WhatsApp Contact](https://wa.me/2347015382607).
+For inquiries, please reach out via WhatsApp at [WhatsApp Contact](https://wa.me/2349064971707).
 ```
