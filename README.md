@@ -42,6 +42,19 @@ dunnis-haven
    ```
 4. Open `src/index.html` in your browser to view the website.
 
+## Deployment
+
+The website is automatically deployed to GitHub Pages when changes are pushed to the main branch. You can view the live site at:
+
+https://timilehin3.github.io/dunnis-haven/
+
+## Development
+
+To run the development server:
+
+```
+
 ## Contact
 
 For inquiries, please reach out via WhatsApp at [WhatsApp Contact](https://wa.me/2347015382607).
+```

@@ -4,7 +4,8 @@
   "description": "A beautiful, elegant, modern, responsive jewelry website.",
   "main": "src/index.html",
   "scripts": {
-    "start": "live-server src"
+    "start": "live-server src",
+    "build": "echo 'No build step required'"
   },
   "keywords": [
     "jewelry",
@@ -13,7 +14,7 @@
     "elegant",
     "modern"
   ],
-  "author": "Your Name",
+  "author": "Oluwatomisin",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
