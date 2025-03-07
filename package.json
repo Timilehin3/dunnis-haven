@@ -18,5 +18,13 @@
   "dependencies": {},
   "devDependencies": {
     "live-server": "^1.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timilehin3/dunnis-haven.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Timilehin3/dunnis-haven/issues"
+  },
+  "homepage": "https://github.com/Timilehin3/dunnis-haven#readme"
 }

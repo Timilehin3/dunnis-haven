@@ -1,5 +1,7 @@
 # Dependencies
 node_modules/
+.cache/
+dist/
 
 # Environment files
 .env
