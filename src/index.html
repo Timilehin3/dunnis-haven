@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dunnis Haven</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <meta name="theme-color" content="#6a1b9a" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <header>
+      <h1>Dunnis Haven</h1>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav>
+        <ul>
+          <li>
+            <a
+              href="#about"
+              onclick="smoothScroll(document.querySelector('#about'))"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#gallery"
+              onclick="smoothScroll(document.querySelector('#gallery'))"
+              >Gallery</a
+            >
+          </li>
+          <li>
+            <a href="https://wa.me/2347015382607" target="_blank">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="hero-section">
+        <div class="hero-content">
+          <h1 class="hero-title animate-on-scroll">Timeless Elegance</h1>
+          <p class="hero-subtitle animate-on-scroll">
+            Crafting moments of luxury with exceptional jewelry pieces
+          </p>
+          <div class="hero-cta">
+            <a href="#featured" class="btn-luxury">Shop New Arrivals</a>
+            <a href="#contact" class="btn-luxury btn-outline"
+              >Book Consultation</a
+            >
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="assets/IMG-20250306-WA0517.jpg"
+            alt="Luxury Jewelry Collection"
+          />
+        </div>
+        <div class="hero-decorations">
+          <div class="hero-decoration" style="top: 20%; left: 10%"></div>
+          <div class="hero-decoration" style="top: 60%; right: 15%"></div>
+          <div class="hero-decoration" style="bottom: 20%; left: 20%"></div>
+        </div>
+      </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Dunnis Haven, your destination for exquisite jewelry.</p>
+      </section>
+      <section id="featured" class="featured-section">
+        <h2 class="section-title animate-fade-up">Featured Collections</h2>
+        <div class="slider-container">
+          <div class="product-slider">
+            <div class="product featured-product">
+              <div class="product-badge">New Arrival</div>
+              <img
+                src="assets/IMG-20250306-WA0507.jpg"
+                alt="Luxury Diamond Set"
+                loading="lazy"
+              />
+              <h3 class="product-title">Luxury Diamond Set</h3>
+              <p class="product-description">
+                Exquisite 18K gold set with natural diamonds
+              </p>
+              <p class="product-price">$3,999</p>
+              <a href="#contact" class="btn-luxury">Contact Us</a>
+            </div>
+            <!-- Add more featured products -->
+          </div>
+        </div>
+      </section>
+      <section id="gallery" class="gallery-section">
+        <h2 class="section-title animate-fade-up">Our Collection</h2>
+        <div class="product-grid">
+          <div class="product">
+            <img
+              src="assets/IMG-20250306-WA0505.jpg"
+              alt="Gold Diamond Necklace"
+              loading="lazy"
+            />
+            <h3 class="product-title">Gold Diamond Necklace</h3>
+            <p class="product-price">$1,299</p>
+            <button class="btn-luxury">Inquire Now</button>
+          </div>
+          <div class="product">
+            <img
+              src="assets/IMG-20250306-WA0506.jpg"
+              alt="Purple Amethyst Ring"
+              loading="lazy"
+            />
+            <h3 class="product-title">Purple Amethyst Ring</h3>
+            <p class="product-price">$899</p>
+            <button class="btn-luxury">Inquire Now</button>
+          </div>
+          <div class="product">
+            <img
+              src="assets/IMG-20250306-WA0507.jpg"
+              alt="Diamond Earrings"
+              loading="lazy"
+            />
+            <h3 class="product-title">Diamond Earrings</h3>
+            <p class="product-price">$1,499</p>
+            <button class="btn-luxury">Inquire Now</button>
+          </div>
+          <div class="product">
+            <img
+              src="assets/IMG-20250306-WA0508.jpg"
+              alt="Gold Bracelet"
+              loading="lazy"
+            />
+            <h3 class="product-title">Gold Bracelet</h3>
+            <p class="product-price">$799</p>
+            <button class="btn-luxury">Inquire Now</button>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials" class="testimonials-section">
+        <h2 class="section-title">Client Stories</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-rating">★★★★★</div>
+            <p>
+              "Absolutely stunning pieces! The craftsmanship is exceptional."
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="assets/IMG-20250306-WA0516.jpg"
+                alt="Sarah J."
+                class="author-avatar"
+              />
+              <div class="author-info">
+                <h4>Osama Angel</h4>
+                <p>Verified Buyer</p>
+              </div>
+            </div>
+          </div>
+          <!-- Add 2 more testimonials with similar structure -->
+        </div>
+      </section>
+      <section id="features" class="features-section">
+        <h2 class="section-title animate-fade-up">Why Choose Us</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="ri-diamonds-line"></i>
+            </div>
+            <h3>Premium Quality</h3>
+            <p>Finest materials and exceptional craftsmanship in every piece</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="ri-verified-badge-line"></i>
+            </div>
+            <h3>Certified Authentic</h3>
+            <p>Each jewelry piece comes with authenticity certification</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="ri-truck-line"></i>
+            </div>
+            <h3>Secure Delivery</h3>
+            <p>Insured shipping and careful packaging for your peace of mind</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="ri-heart-3-line"></i>
+            </div>
+            <h3>Lifetime Support</h3>
+            <p>Free cleaning and maintenance services for all our pieces</p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-content">
+          <p>
+            For inquiries, reach us on WhatsApp:
+            <a
+              href="https://wa.me/2347015382607"
+              class="contact-link"
+              target="_blank"
+            >
+              <i class="fab fa-whatsapp"></i> +234 701 538 2607
+            </a>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Dunnis Haven</h3>
+          <p>Crafting luxurious moments since 2020</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#gallery">Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <ul>
+            <li>
+              <i class="ri-whatsapp-line"></i>
+              <a href="https://wa.me/2347015382607" target="_blank"
+                >+234 701 538 2607</a
+              >
+            </li>
+            <li>
+              <i class="ri-mail-line"></i>
+              <a href="https://wa.me/2347015382607" target="_blank"
+                >Contact Us</a
+              >
+            </li>
+            <li><i class="ri-map-pin-line"></i> Ibadan, Nigeria</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a
+              href="https://wa.me/2347015382607"
+              target="_blank"
+              class="social-link"
+              ><i class="ri-instagram-line"></i
+            ></a>
+            <a
+              href="https://wa.me/2347015382607"
+              target="_blank"
+              class="social-link"
+              ><i class="ri-facebook-line"></i
+            ></a>
+            <a
+              href="https://wa.me/2347015382607"
+              target="_blank"
+              class="social-link"
+              ><i class="ri-twitter-line"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Dunnis Haven. All rights reserved.</p>
+      </div>
+    </footer>
+    <button class="theme-toggle" aria-label="Toggle theme">
+      <i class="fas fa-moon"></i>
+    </button>
+    <script src="scripts/main.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </body>
+</html>
