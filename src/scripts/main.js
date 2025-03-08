@@ -234,11 +234,9 @@ document.querySelectorAll(".btn-luxury").forEach((button) => {
   button.addEventListener("click", () => {
     const productTitle =
       button.closest(".product")?.querySelector(".product-title")
-        ?.textContent || "your jewelry";
-    const whatsappMessage = `Hi, I'm interested in ${productTitle}`;
-    window.open(
-      `https://wa.me/2347015382607?text=${encodeURIComponent(whatsappMessage)}`,
-      "_blank"
+        ?.textContent || "this item";
+    alert(
+      `Thank you for your interest in ${productTitle}. Please use the contact form to inquire about this item.`
     );
   });
 });

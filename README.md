@@ -1,4 +1,4 @@
-NB ; EVERYTHING HERE WAS CREATED WITH GITHUB COPILOT AI
+NB ; THIS IS A DEMO JEWELRY WEBSITE
 
 # Dunnis Haven Jewelry Website
 
@@ -20,4 +20,4 @@ View the website: https://timilehin3.github.io/dunnis-haven/
 
 ## Contact
 
-WhatsApp: [+234 701 538 2607](https://wa.me/2347015382607)
+For inquiries, please reach out through our contact form.
