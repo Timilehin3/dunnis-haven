@@ -1,4 +1,4 @@
-NB ; THIS IS A DEMO JEWELRY WEBSITE
+# NB ; THIS IS A AI Generated JEWELRY WEBSITE
 
 # Sparkling Gems Jewelry Website
 
